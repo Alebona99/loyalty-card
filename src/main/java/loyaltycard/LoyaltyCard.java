@@ -1,5 +1,8 @@
 package loyaltycard;
 
+import customexception.MaxLenghtException;
+import customexception.MinLenghtException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,12 +21,27 @@ public class LoyaltyCard {
      */
     public LoyaltyCard(){}
 
+
     /**
      * Costruttore con parametro
      * @param numberCard Numero della carta
+     * @throws Exception MinLenghtException, MaxLenghtException
      */
-    public LoyaltyCard(long numberCard){
+    public LoyaltyCard(long numberCard)throws MinLenghtException, MaxLenghtException{
         this.numberCard = numberCard;
+        if(isMinLenght()){
+            this.numberCard = numberCard;
+        }else{
+            this.numberCard = null;
+            throw new MinLenghtException();
+        }
+
+        if (isMaxLenght()){
+            this.numberCard = numberCard;
+        }else{
+            this.numberCard = null;
+            throw new MaxLenghtException();
+        }
     }
 
 
@@ -140,19 +158,6 @@ public class LoyaltyCard {
     }
 
 
-    public static void main(String[] args) {
 
-        LoyaltyCard l = new LoyaltyCard(1234567809123L);
-
-        //Check digit
-        l.setNumberCard(978014102662L);
-        //l.getFullCardNo();
-        System.out.println("Il check Digit è: " + l.checkDigit());
-        System.out.println("Full Card: " + l.getFullCardNo());
-
-        //Check Validity
-        l.setNumberCard(9780141026626L);
-        System.out.println(l.checkValidity());
-    }
 
 }
