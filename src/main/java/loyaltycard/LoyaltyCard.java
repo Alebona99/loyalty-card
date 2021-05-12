@@ -151,7 +151,7 @@ public class LoyaltyCard {
      * @throws CardLenghtException
      */
     public void setNumberCard(String numberCard) throws CardLenghtException{
-        if (isNumeric()) {
+        if (isNumeric(numberCard)) {
             if (numberCard.length() == MIN_LENGHT || numberCard.length() == MAX_LENGHT) {
                 this.numberCard = numberCard;
             } else {
@@ -168,7 +168,7 @@ public class LoyaltyCard {
      * Metodo per il controllo se il numero carta fedeltà è solo numerico tramite una regular expression
      * @return True se ha solo valori numerici
      */
-    private boolean isNumeric(){
+    private boolean isNumeric(String numberCard){
         return numberCard.matches("\\d+");
     }
 }
