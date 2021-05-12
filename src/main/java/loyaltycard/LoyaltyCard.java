@@ -16,7 +16,7 @@ public class LoyaltyCard {
     /**
      * Codice della carta
      */
-    private Long numberCard;
+    private String numberCard;
 
     /**
      * variabile d'ambiente per la minima lunghezza del codice
@@ -37,7 +37,7 @@ public class LoyaltyCard {
      * @param numberCard Numero della carta
      * @throws CardLenghtException
      */
-    public LoyaltyCard(long numberCard)throws CardLenghtException {
+    public LoyaltyCard(String numberCard)throws CardLenghtException {
         this.numberCard = numberCard;
         if(isMinLenght() || isMaxLenght()){
             this.numberCard = numberCard;
@@ -68,10 +68,9 @@ public class LoyaltyCard {
      * @return La check digit
      */
     public int checkDigit(){
-        String s = numberCard.toString();
         List<Integer> in = new ArrayList<>();
         for (int i = 0; i < MIN_LENGHT; i++) {
-            in.add(i, Character.getNumericValue(s.charAt(i)));
+            in.add(i, Character.getNumericValue(numberCard.charAt(i)));
         }
 
         int p = 0;
@@ -97,12 +96,11 @@ public class LoyaltyCard {
      * Metodo che ritorna il numero di carta senza check digit
      * @return Il numero della carta senza check
      */
-    public long getCardNo(){
+    public String getCardNo(){
         if (isMinLenght()){
             return numberCard;
         }else{
-            String card = numberCard.toString();
-            long cardNo = Long.getLong(card.substring(0, card.length() - 1));
+            String cardNo = numberCard.substring(0, numberCard.length() - 1);
             return cardNo;
         }
     }
@@ -112,13 +110,12 @@ public class LoyaltyCard {
      * Metodo che ritorna l'intero valore del codice
      * @return Ritorna l'intero valore del codice
      */
-    public long getFullCardNo(){
+    public String getFullCardNo(){
         if (isMaxLenght()){
             return numberCard;
         }else{
-            String code = numberCard.toString();
             String cDgt = Integer.toString(checkDigit());
-            long fullCardNo = Long.decode(code + cDgt);
+            String fullCardNo = numberCard + cDgt;
             return fullCardNo;
         }
     }
@@ -148,7 +145,7 @@ public class LoyaltyCard {
      * Getter NumberCard
      * @return
      */
-    public Long getNumberCard() {
+    public String getNumberCard() {
         return numberCard;
     }
 
@@ -157,7 +154,7 @@ public class LoyaltyCard {
      * Setter NumberCard
      * @param numberCard Numero della carta fedeltà
      */
-    public void setNumberCard(Long numberCard) throws CardLenghtException{
+    public void setNumberCard(String numberCard) throws CardLenghtException{
         this.numberCard = numberCard;
         if(isMinLenght() || isMaxLenght()){
             this.numberCard = numberCard;

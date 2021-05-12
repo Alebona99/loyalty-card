@@ -21,7 +21,7 @@ class LoyaltyCardTest {
         assertThrows(CardLenghtException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard(123456789012345L);
+                LoyaltyCard l = new LoyaltyCard("123456789012345");
             }
         });
 
@@ -38,7 +38,7 @@ class LoyaltyCardTest {
         assertThrows(CardLenghtException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard(1234566L);
+                LoyaltyCard l = new LoyaltyCard("1234566");
             }
         });
     }
@@ -54,7 +54,7 @@ class LoyaltyCardTest {
         assertThrows(CardLenghtException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard(0L);
+                LoyaltyCard l = new LoyaltyCard("");
             }
         });
     }
@@ -67,7 +67,7 @@ class LoyaltyCardTest {
      */
     @org.junit.jupiter.api.Test
     void checkValidity()throws Exception {
-        LoyaltyCard l = new LoyaltyCard(9780141026626L);
+        LoyaltyCard l = new LoyaltyCard("9780141026626");
         assertTrue(l.checkValidity());
     }
 
@@ -79,7 +79,7 @@ class LoyaltyCardTest {
      */
     @Test
     void checkValidity_wrong_digit() throws Exception{
-        LoyaltyCard l = new LoyaltyCard(9780141026624L);
+        LoyaltyCard l = new LoyaltyCard("9780141026624");
         assertFalse(l.checkValidity());
     }
 
@@ -103,7 +103,7 @@ class LoyaltyCardTest {
 
     @Test
     void checkDigit_work() throws CardLenghtException{
-        LoyaltyCard l = new LoyaltyCard(978014102662L);
+        LoyaltyCard l = new LoyaltyCard("978014102662");
 
     }
 
@@ -139,7 +139,7 @@ class LoyaltyCardTest {
             @Override
             public void execute() throws Throwable {
                 LoyaltyCard l = new LoyaltyCard();
-                l.setNumberCard(1234L);
+                l.setNumberCard("1234");
             }
         });
     }
@@ -156,7 +156,7 @@ class LoyaltyCardTest {
             @Override
             public void execute() throws Throwable {
                 LoyaltyCard l = new LoyaltyCard();
-                l.setNumberCard(1234567890123456L);
+                l.setNumberCard("1234567890123456");
             }
         });
     }
