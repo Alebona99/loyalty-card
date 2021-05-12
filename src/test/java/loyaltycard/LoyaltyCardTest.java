@@ -84,22 +84,7 @@ class LoyaltyCardTest {
     }
 
 
-    /**
-     * test case checkDigit 1
-     * Uso il costruttore didefault senza numero di carta
-     * Mi aspetto un eccezione
-     * @throws NullPointerException
-     */
-    @Test
-    void checkDigit() throws  NullPointerException{
-        assertThrows(NullPointerException.class, new Executable() {
-            @Override
-            public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard();
-                l.checkDigit();
-            }
-        });
-    }
+
 
     @Test
     void checkDigit_work() throws CardLenghtException{
@@ -138,7 +123,7 @@ class LoyaltyCardTest {
         assertThrows(CardLenghtException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard();
+                LoyaltyCard l = new LoyaltyCard("1234");
                 l.setNumberCard("1234");
             }
         });
@@ -155,7 +140,7 @@ class LoyaltyCardTest {
         assertThrows(CardLenghtException.class, new Executable() {
             @Override
             public void execute() throws Throwable {
-                LoyaltyCard l = new LoyaltyCard();
+                LoyaltyCard l = new LoyaltyCard("1234567890123456");
                 l.setNumberCard("1234567890123456");
             }
         });

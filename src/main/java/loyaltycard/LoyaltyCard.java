@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * Classe per operazioni su codici Ean13
  * Calcolo del check digit e della sua validità
+ * Costruttore di default private per permettere solo l'uso di quello con parametro
  */
 public class LoyaltyCard {
 
@@ -29,23 +30,16 @@ public class LoyaltyCard {
     private static final int MAX_LENGHT = 13;
 
 
-    public LoyaltyCard(){}
+    private LoyaltyCard(){}
 
 
     /**
-     * Costruttore con parametro
+     * Costruttore che crea un oggetto con il numero carta passato, richiamando il metodo setter
      * @param numberCard Numero della carta
      * @throws CardLenghtException
      */
     public LoyaltyCard(String numberCard)throws CardLenghtException {
-        this.numberCard = numberCard;
-        if(isMinLenght() || isMaxLenght()){
-            this.numberCard = numberCard;
-        }else{
-            this.numberCard = null;
-            throw new CardLenghtException();
-        }
-
+        setNumberCard(numberCard);
     }
 
 
@@ -55,8 +49,7 @@ public class LoyaltyCard {
      */
     public boolean checkValidity(){
         if (isMaxLenght()) {
-            String code = numberCard.toString();
-            int finDigit = Character.getNumericValue(code.charAt(code.length() - 1));
+            int finDigit = Character.getNumericValue(numberCard.charAt(numberCard.length() - 1));
             return checkDigit() == finDigit;
         }
         return false;
@@ -107,8 +100,8 @@ public class LoyaltyCard {
 
 
     /**
-     * Metodo che ritorna l'intero valore del codice
-     * @return Ritorna l'intero valore del codice
+     * Metodo che ritorna l'intero numero carta
+     * @return Il numero della Carta compreso di check digit
      */
     public String getFullCardNo(){
         if (isMaxLenght()){
@@ -126,7 +119,7 @@ public class LoyaltyCard {
      * @return True se è di 12 cifre
      */
     public boolean isMinLenght(){
-        return numberCard.toString().length() == MIN_LENGHT;
+        return numberCard.length() == MIN_LENGHT;
     }
 
 
@@ -137,13 +130,13 @@ public class LoyaltyCard {
      * @return
      */
     public boolean isMaxLenght(){
-        return numberCard.toString().length() == MAX_LENGHT;
+        return numberCard.length() == MAX_LENGHT;
     }
 
 
     /**
      * Getter NumberCard
-     * @return
+     * @return Numero della carta
      */
     public String getNumberCard() {
         return numberCard;
@@ -152,16 +145,30 @@ public class LoyaltyCard {
 
     /**
      * Setter NumberCard
+     * Richiama il metodo isNumeric per controllare se sono presenti solo valori numerici altrimenti esce un eccezione
+     * Controlla che la lunghezza del numero della carta sia valido, altrimenti esce un eccezione
      * @param numberCard Numero della carta fedeltà
+     * @throws CardLenghtException
      */
     public void setNumberCard(String numberCard) throws CardLenghtException{
-        this.numberCard = numberCard;
-        if(isMinLenght() || isMaxLenght()){
-            this.numberCard = numberCard;
+        if (isNumeric()) {
+            if (numberCard.length() == MIN_LENGHT || numberCard.length() == MAX_LENGHT) {
+                this.numberCard = numberCard;
+            } else {
+                this.numberCard = null;
+                throw new CardLenghtException();
+            }
         }else{
-            this.numberCard = null;
-            throw new CardLenghtException();
+            throw new CardLenghtException("Card Number not valid, there are characters not numeric, provide to change.");
         }
     }
 
+
+    /**
+     * Metodo per il controllo se il numero carta fedeltà è solo numerico tramite una regular expression
+     * @return True se ha solo valori numerici
+     */
+    private boolean isNumeric(){
+        return numberCard.matches("\\d+");
+    }
 }
