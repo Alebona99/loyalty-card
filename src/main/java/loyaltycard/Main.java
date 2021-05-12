@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        LoyaltyCard l = new LoyaltyCard(123456780912300L);
+        LoyaltyCard l = new LoyaltyCard(1234567809123L);
 
         //Check digit
         l.setNumberCard(978014102662L);

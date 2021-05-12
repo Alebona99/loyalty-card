@@ -1,18 +1,35 @@
 package loyaltycard;
 
-import customexception.MaxLenghtException;
-import customexception.MinLenghtException;
+import customexception.CardLenghtException;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * Classe per operazioni su codici Ean13
+ * Calcolo del check digit e della sua validità
+ */
 public class LoyaltyCard {
+
 
     /**
      * Attributi della cartà fedeltà
      */
+
+    /**
+     * Codice della carta
+     */
     private Long numberCard;
+
+    /**
+     * variabile d'ambiente per la minima lunghezza del codice
+     */
     private static final int MIN_LENGHT = 12;
+
+    /**
+     * variabile d'ambienteper la massima lunghezza del codice
+     */
     private static final int MAX_LENGHT = 13;
 
 
@@ -27,21 +44,15 @@ public class LoyaltyCard {
      * @param numberCard Numero della carta
      * @throws Exception MinLenghtException, MaxLenghtException
      */
-    public LoyaltyCard(long numberCard)throws MinLenghtException, MaxLenghtException{
+    public LoyaltyCard(long numberCard)throws CardLenghtException {
         this.numberCard = numberCard;
-        if(isMinLenght()){
+        if(isMinLenght() || isMaxLenght()){
             this.numberCard = numberCard;
         }else{
             this.numberCard = null;
-            throw new MinLenghtException();
+            throw new CardLenghtException();
         }
 
-        if (isMaxLenght()){
-            this.numberCard = numberCard;
-        }else{
-            this.numberCard = null;
-            throw new MaxLenghtException();
-        }
     }
 
 
@@ -153,8 +164,14 @@ public class LoyaltyCard {
      * Setter NumberCard
      * @param numberCard Numero della carta fedeltà
      */
-    public void setNumberCard(Long numberCard) {
+    public void setNumberCard(Long numberCard) throws CardLenghtException{
         this.numberCard = numberCard;
+        if(isMinLenght() || isMaxLenght()){
+            this.numberCard = numberCard;
+        }else{
+            this.numberCard = null;
+            throw new CardLenghtException();
+        }
     }
 
 }
