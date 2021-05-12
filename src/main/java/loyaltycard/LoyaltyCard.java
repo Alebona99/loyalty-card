@@ -52,7 +52,7 @@ public class LoyaltyCard {
     public boolean checkValidity(){
         if (isMaxLenght()) {
             String code = numberCard.toString();
-            Integer finDigit = Character.getNumericValue(code.charAt(code.length() - 1));
+            int finDigit = Character.getNumericValue(code.charAt(code.length() - 1));
             return checkDigit() == finDigit;
         }
         return false;
@@ -156,8 +156,5 @@ public class LoyaltyCard {
     public void setNumberCard(Long numberCard) {
         this.numberCard = numberCard;
     }
-
-
-
 
 }
