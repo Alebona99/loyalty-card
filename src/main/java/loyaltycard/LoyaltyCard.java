@@ -14,10 +14,6 @@ public class LoyaltyCard {
 
 
     /**
-     * Attributi della cartà fedeltà
-     */
-
-    /**
      * Codice della carta
      */
     private Long numberCard;
@@ -28,21 +24,18 @@ public class LoyaltyCard {
     private static final int MIN_LENGHT = 12;
 
     /**
-     * variabile d'ambienteper la massima lunghezza del codice
+     * variabile d'ambiente per la massima lunghezza del codice
      */
     private static final int MAX_LENGHT = 13;
 
 
-    /**
-     * Costruttore di default
-     */
     public LoyaltyCard(){}
 
 
     /**
      * Costruttore con parametro
      * @param numberCard Numero della carta
-     * @throws Exception MinLenghtException, MaxLenghtException
+     * @throws CardLenghtException
      */
     public LoyaltyCard(long numberCard)throws CardLenghtException {
         this.numberCard = numberCard;

@@ -84,9 +84,27 @@ class LoyaltyCardTest {
     }
 
 
+    /**
+     * test case checkDigit 1
+     * Uso il costruttore didefault senza numero di carta
+     * Mi aspetto un eccezione
+     * @throws NullPointerException
+     */
+    @Test
+    void checkDigit() throws  NullPointerException{
+        assertThrows(NullPointerException.class, new Executable() {
+            @Override
+            public void execute() throws Throwable {
+                LoyaltyCard l = new LoyaltyCard();
+                l.checkDigit();
+            }
+        });
+    }
 
     @Test
-    void checkDigit() {
+    void checkDigit_work() throws CardLenghtException{
+        LoyaltyCard l = new LoyaltyCard(978014102662L);
+
     }
 
     @org.junit.jupiter.api.Test
@@ -142,4 +160,5 @@ class LoyaltyCardTest {
             }
         });
     }
+
 }
