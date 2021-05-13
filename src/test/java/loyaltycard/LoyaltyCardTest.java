@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Classe di Test per la classe LoyaltyCard
+ * Test suite su tutti metodi e sul costruttore meno il metodo isNumeric
+ * poichè i suoi test coincidono con quelli del costruttore e del metodo setNumberCard
  */
 class LoyaltyCardTest {
 
