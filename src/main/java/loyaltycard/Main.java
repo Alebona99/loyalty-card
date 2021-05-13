@@ -16,5 +16,7 @@ public class Main {
         l.setNumberCard("9780141026626");
         System.out.println(l.checkValidity());
 
+        LoyaltyCard nulla = new LoyaltyCard("nio908056789");
+        nulla.checkDigit();
     }
 }

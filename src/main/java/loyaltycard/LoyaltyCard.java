@@ -38,7 +38,7 @@ public class LoyaltyCard {
      * @param numberCard Numero della carta
      * @throws CardLenghtException
      */
-    public LoyaltyCard(String numberCard)throws CardLenghtException {
+    public LoyaltyCard(String numberCard) throws CardLenghtException {
         setNumberCard(numberCard);
     }
 
@@ -101,6 +101,7 @@ public class LoyaltyCard {
 
     /**
      * Metodo che ritorna l'intero numero carta
+     * se il numero carta è di 12 cifre calcola il check digit
      * @return Il numero della Carta compreso di check digit
      */
     public String getFullCardNo(){
