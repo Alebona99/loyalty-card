@@ -23,4 +23,4 @@ Inoltre visto che il codice dev'essere solo numerico ho sviluppato un metodo app
 Tutti questi controlli sono stati implementati nel metodo ___setNumberCard();___ che lancia delle Custom Exception se questi controlli non vengono superati.
 Per controllare se il valore inserito nel costruttore sia valido richiamo il metodo ___setNumberCard();___ che controlla la validità del valore passato e poi se tutto è corretto assegna il valore a *NumberCard*.
 
-Nel metodo ___checkDigit();___ ho scelto di prendere carattere dopo carattere il numero della carta, grazie al metodo ***charAt(index);*** , ed inserirlo come **int** in un ___ArrayList___, cosi da poter calcolare con l'apposito algoritmo il *check digit* tramite gli indici della **Lista Array**. 
+Nel metodo ___checkDigit();___ ho scelto di prendere carattere dopo carattere il numero della carta, grazie al metodo ***charAt(index);*** del tipo __String__ , ed inserirlo come **int** in un ___ArrayList___, cosi da poter calcolare con l'apposito algoritmo il *check digit* tramite gli indici della **Lista Array**. 
