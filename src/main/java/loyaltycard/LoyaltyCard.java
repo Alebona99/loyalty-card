@@ -39,7 +39,7 @@ public class LoyaltyCard {
      * @throws CardLenghtException
      */
     public LoyaltyCard(String numberCard) throws CardLenghtException {
-        setNumberCard(numberCard);
+        this.setNumberCard(numberCard);
     }
 
 
