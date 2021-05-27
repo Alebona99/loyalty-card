@@ -1,0 +1,992 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-27T08:43:36.034Z",
+        "line": 13,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1320956,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2359558,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"978014102662\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"978014102662\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1246248,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user see the 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 17
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserSeeThe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.104Z",
+        "line": 14,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 244945,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340955,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"123789456738\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123789456738\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 272928,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user see the 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 17
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserSeeThe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.114Z",
+        "line": 15,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 137769,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 739457,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"234098354772\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234098354772\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246671,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user see the 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 17
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserSeeThe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.123Z",
+        "line": 16,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 124323,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151727,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"345829048564\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"345829048564\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131962,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user see the 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 17
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserSeeThe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.159Z",
+        "line": 17,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 221024,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"adrsf4562282\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:8)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 2173406,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"adrsf4562282\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adrsf4562282\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175920,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user see the ",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.186Z",
+        "line": 18,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1038870,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:8)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 508797,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184822,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user see the ",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.201Z",
+        "line": 19,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118560,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"asd\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:8)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 350478,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"asd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"asd\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161291,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user see the ",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.214Z",
+        "line": 20,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179861,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"234566\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:8)\nCaused by: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:148)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 433043,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"234566\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"234566\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129101,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user see the ",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.225Z",
+        "line": 21,
+        "name": "User Check digit of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-digit-of-loyalty-card;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 189905,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"null\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:8)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 514865,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "insert the number of Card \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182262,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user see the ",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.235Z",
+        "line": 32,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 191812,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273932,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"9780141026626\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9780141026626\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 908407,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.244Z",
+        "line": 33,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184694,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319705,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"1237894567381\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1237894567381\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223902,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.251Z",
+        "line": 34,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180006,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218089,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"1324637489905\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1324637489905\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: expected: \u003ctrue\u003e but was: \u003cfalse\u003e\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)\n\tat com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid(LoyaltyCardStep.java:47)\n\tat ✽.the user control and see if the card is valid(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:28)\n",
+              "duration": 612448,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.263Z",
+        "line": 35,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 121548,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"12334444444\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:27)\nCaused by: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:148)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 345158,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"12334444444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12334444444\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147103,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.274Z",
+        "line": 36,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 174182,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"adsfeg2345\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:27)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 464341,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"adsfeg2345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adsfeg2345\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98149,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.282Z",
+        "line": 37,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 158649,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:27)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 411799,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148027,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.291Z",
+        "line": 38,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 576720,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"2344\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:27)\nCaused by: customexception.CardLenghtException: Value lenght of Card Number not valid, control if is in the range of validity.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:148)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 730400,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"2344\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2344\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129663,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.302Z",
+        "line": 39,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177630,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: Unexpected exception thrown: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat ✽.insert the number of Card \"null\"(file:///home/alessio/IdeaProjects/loyalty-card/src/test/java/features/LoyaltyCard.feature:27)\nCaused by: customexception.CardLenghtException: Card Number not valid, there are characters not numeric, provide to change.\n\tat loyaltycard.LoyaltyCard.setNumberCard(LoyaltyCard.java:151)\n\tat com.loyaltycard.LoyaltyCardStep$1.execute(LoyaltyCardStep.java:32)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3060)\n\tat com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(LoyaltyCardStep.java:29)\n\tat jdk.internal.reflect.GeneratedMethodAccessor82.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\n",
+              "duration": 451285,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"null\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"null\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94854,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T08:43:36.321Z",
+        "line": 40,
+        "name": "User check validity of Loyalty Card",
+        "description": "",
+        "id": "check-validity-of-loyalty-card-(ean13);user-check-validity-of-loyalty-card;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 155656,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user have a Loyalty Card",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.userHaveALoyaltyCard()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211052,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "insert the number of Card \"2345789656566\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2345789656566\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.loyaltycard.LoyaltyCardStep.userInsertTheNumberOfCard(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163740,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user control and see if the card is valid",
+            "match": {
+              "location": "com.loyaltycard.LoyaltyCardStep.theUserControlAndSeeIfTheCardIsValid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check validity of Loyalty Card (EAN13)",
+    "description": "  A User check the validity of his Loyalty Card\n  and calculate the check digit of the Card\n  The Code of Loyalty Card is an EAN13 code",
+    "id": "check-validity-of-loyalty-card-(ean13)",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/LoyaltyCard.feature",
+    "tags": []
+  }
+]

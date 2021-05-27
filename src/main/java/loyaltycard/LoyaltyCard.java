@@ -13,20 +13,8 @@ import java.util.List;
  */
 public class LoyaltyCard {
 
-
-    /**
-     * Codice della carta
-     */
     private String numberCard;
-
-    /**
-     * variabile d'ambiente per la minima lunghezza del codice
-     */
     private static final int MIN_LENGHT = 12;
-
-    /**
-     * variabile d'ambiente per la massima lunghezza del codice
-     */
     private static final int MAX_LENGHT = 13;
 
 

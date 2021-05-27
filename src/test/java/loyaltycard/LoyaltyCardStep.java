@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * Test suite su tutti metodi e sul costruttore meno il metodo isNumeric
  * poichè i suoi test coincidono con quelli del costruttore e del metodo setNumberCard
  */
-class LoyaltyCardTest {
+class LoyaltyCardStep {
 
     /**
      * test case costruttore param 1
